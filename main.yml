@@ -1,7 +1,4 @@
 ---
- - hosts: all
-   connection: local
-
- - roles:
-   - role: geerlingguy.homebrew
-     tags: ['homebrew']
+- roles:
+  - role: geerlingguy.homebrew
+    tags: ['homebrew']
