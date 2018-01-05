@@ -1,0 +1,50 @@
+---
+
+homebrew_installed_packages:
+  - ssh-copy-id
+  - ipcalc
+  - mosh
+  - youtube-dl
+  - kubernetes-cli
+  - node
+  - terraform
+  - zsh
+  - python
+  - tmux
+  - zsh-completions
+  - git
+  - python3
+  - tree
+  - cask
+  - packer
+  - watch
+  - coreutils
+  - htop
+  - packer-completion
+  - shellcheck
+  - wget
+  - mobile-shell
+  - shpotify
+homebrew_upgrade_all_packages: yes
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  - buo/cask-upgrade
+  - caskroom/fonts
+  - caskroom/versions
+homebrew_cask_apps:
+  - google-cloud-sdk
+  - minikube
+  - atom
+  - cheatsheet
+  - java
+  - iterm2
+  - google-chrome
+  - muzzle
+  - trailer
+  - vagrant
+  - font-meslo-nerd-font
+  - font-meslo-nerd-font-mono
+  - messenger-for-desktop
+  - openemu-experimental
+  - virtualbox
